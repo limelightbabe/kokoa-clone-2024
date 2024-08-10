@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,17 +27,16 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-        <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
-    </header>
 
-    <form action="friends.html" method="get"   id="login-form">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="password">
-        <input type="submit" placeholder="Log in">
-        <a href="#">Find Kakao Account or password</a>
-    </form>
-    <script src="https://kit.fontawesome.com/ba439bdcc2.js" crossorigin="anonymo us"></script>
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-regular fa-comment fa-2x"></i><span class="nav__notification">1</span></a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i> </a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-2x"></i><div class="nav__notification2"></div></a></li>
+    </ul>
+</nav>
+   
+    <script src="https://kit.fontawesome.com/ba439bdcc2.js" crossorigin="anonymous"></script>
 </body>
 </html>
